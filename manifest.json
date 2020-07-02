@@ -104,6 +104,7 @@
         }
     },
     "h5" : {
-        "title" : "健康申报"
+        "title" : "健康申报",
+        "template" : "health"
     }
 }
