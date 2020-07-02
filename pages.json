@@ -1,0 +1,45 @@
+{
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+   {
+     "path": "pages/index/index",
+     "style": {
+       "navigationBarTitleText": "健康申报"
+     }
+   },
+	 {
+     "path": "pages/airlines/airlines",
+     "style": {
+       "navigationBarTitleText": "国内各航空公司"
+     }
+   },
+	 {
+     "path": "pages/city/city",
+     "style": {
+       "navigationBarTitleText": "中国大陆各城市健康申报"
+     }
+   }, 
+		{
+      "path": "pages/code/code",
+      "style": {
+        "navigationBarTitleText": "填报引导"
+      }
+    },
+		{
+		  "path": "pages/operate/operate",
+		  "style": {
+		    "navigationBarTitleText": "三大运营商行动轨迹查询"
+		  }
+		}
+  ],
+  "globalStyle": {
+		"navigationStyle": "custom",
+    "navigationBarBackgroundColor": "#00B26A",
+    "backgroundColor": "#09BB07",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fff",
+    "onReachBottomDistance":100,
+		"backgroundColorBottom": "red"
+  }
+}
