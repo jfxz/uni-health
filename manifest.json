@@ -105,6 +105,10 @@
     },
     "h5" : {
         "title" : "健康申报",
-        "template" : "health"
+        "template" : "health",
+        "devServer" : {
+            "port" : "",
+            "https" : true
+        }
     }
 }
